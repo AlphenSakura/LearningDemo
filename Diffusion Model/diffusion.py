@@ -6,6 +6,8 @@ import torch.nn as nn
 import torch.nn.functional as F     
 
 
+
+# 损失函数
 class WeightedLoss(nn.Module):
     def __init__(self):
         super(WeightedLoss, self).__init__()
